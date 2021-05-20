@@ -1,0 +1,33 @@
+.box{
+    margin: 100px auto;
+    height: 70%;
+    width: 70%;
+    background-color: rgb(221, 253, 253);
+    position: relative;
+}
+.item1{
+    height: 40%;
+    width: 20%;
+    background-color: crimson;
+    position: absolute;
+    right: 10px;
+}
+.item2{
+    height: 40%;
+    width: 20%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: darkblue;
+}
+.nav{
+    background-color: crimson;
+    z-index: 1;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+p{
+    position: absolute;
+    bottom: 0px;
+}
