@@ -1,0 +1,32 @@
+.sample
+{
+    background: black;
+    /* background: rgb(48, 171, 180);
+    background: #fff;
+    background: rgba(red, green, blue, 0.2);
+    0.2-opacity[final parameter of rgba] */
+    color: brown;
+    border: 2px solid red;
+    border-top-left-radius:30px ;
+}
+.sample-two
+{
+    border-bottom: 2px double darksalmon;
+    height: 25%;
+    width: 45%;
+    background: url("../images/108.jpg");
+}
+.sample-three
+{
+    border: 5px solid brown;
+    margin: 30px;
+    padding: 50px;
+    
+}
+.sample-three ul{
+    list-style-type: none;
+}
+.sample-three h2{
+    text-shadow: -2px 2px 5px #6c6c6d
+    /* X-axis, Y-axis, blur, color */
+}
